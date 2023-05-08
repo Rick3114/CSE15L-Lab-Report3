@@ -41,7 +41,7 @@ This command can come in handy when you recall the first word of a specific line
 [https://www.softwaretestinghelp.com/grep-command-in-unix/](https://www.softwaretestinghelp.com/grep-command-in-unix/)
 
 ## Command2: Last Word In Line
-``$ grep "(insert word of choice here$)" (insert file of choice here)``\
+``$ grep "(insert word of choice here$)" (insert file being searched here)``\
 This command returns all the lines in the file that end with the given word.
 
 ### Example1: 
@@ -97,7 +97,7 @@ This topic can come in useful when you want to search for a specific theme or to
 [https://www.softwaretestinghelp.com/grep-command-in-unix/](https://www.softwaretestinghelp.com/grep-command-in-unix/)
 
 ## Command3: Finding Specific Word:
-``$ grep -i "(insert word of choice here)"``\
+``$ grep -i "(insert word of choice here)" (insert file being searched here)``\
 This command returns all the lines within the file that contain the word that is being searched for in either lower-case or uppercase it does not matter.
 
 ### Example1: 
@@ -152,6 +152,39 @@ This command can come in useful when you want to search for a specific theme or 
 
 **Source:**\
 [https://www.softwaretestinghelp.com/grep-command-in-unix/](https://www.softwaretestinghelp.com/grep-command-in-unix/)
+
+## Command4: Count Of Specific Word
+``$ grep -c "(insert word of choice here)" (insert file that is being searched) ``\
+This command returns the count of the number of times the given word appears in the given file. 
+
+### Example1: 
+
+**Input:** 
+```
+$ grep -c "postal" Cohenetal_comparison.txt
+```
+**Output:** 
+```
+35
+```
+The example above is used in the directory of Post_Rate_Comm on the file Cohenetal_comparison.txt. The command searches through the file and counts the amount of times the word "postal" appears in the file and returns the total count which is 35.
+
+###  Example2:
+
+**Input:**
+```
+$ grep -c "cells" 1471-213X-1-11.txt 
+```
+**Output:**
+```
+113
+```
+The example above is used in the directory of biomed on the file 1471-213X-1-11.txt. The command searches through the file and counts the amount of times the word "cells" appears in the file and returns the total count which is 113.
+
+**Why Useful:**\ 
+This command is useful because 
+
+
 
 
 
