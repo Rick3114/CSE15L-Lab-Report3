@@ -96,7 +96,64 @@ This topic can come in useful when you want to search for a specific theme or to
 **Source:**\
 [https://www.softwaretestinghelp.com/grep-command-in-unix/](https://www.softwaretestinghelp.com/grep-command-in-unix/)
 
-## Command3:
+## Command3: Finding Specific Word:
+``$ grep -i "(insert word of choice here)"``\
+This command returns all the lines within the file that contain the word that is being searched for in either lower-case or uppercase it does not matter.
+
+### Example1: 
+
+**Input:**
+```
+$ grep -i "clean" bill.txt
+```
+**Output:**
+```
+To amend the Clean Air Act to reduce air pollution through
+"Sec. 408. Clean coal technology regulatory incentives. "Sec. 409.
+Title IV of the Clean Air Act (relating to acid deposition
+SEC. 408. CLEAN COAL TECHNOLOGY REGULATORY INCENTIVES.
+Definition.- For purposes of this section, "clean coal
+Revised Regulations for Clean Coal Technology
+permanent clean coal technology demonstration project. For the
+purposes of this section, a clean coal technology demonstration
+heading "Department of Energy- Clean Coal Technology", up to a
+clean coal technology, or similar projects
+or removal of a temporary cleancoal technology demonstration
+Permanent projects.- For permanent clean coal technology
+Exemption for Reactivation of Very Clean Units.- Physical
+enactment of the Clean Air Act Amend- meats of 1990);
+coal-fired boiler with one of thefollowing clean coal technologies:
+oil-and gas-fired unit which has beenawarded a clean coal
+titles of the Clean Air Act with respect to:
+(a) Title I of the Clean Air Act is amended by-
+Title III of the Clean Air Act is amended by modifying
+Title IV of the Clean Air Act (relating to noise
+Title VIII of the Clean Air Act Amendments of 1990
+title IV of the Clean Air Act shall also monitor carbon dioxide
+Clean Air Act shall apply for purposes of this section in the same
+```
+The example above is used in the directory of Env_Prot_Agen on the file bill.txt. The command searches through the file and returns all the lines within the file that contain the word "clean". 
+
+### Example2: 
+
+**Input:** 
+```
+$ grep -i "vitamin" journal.pbio.0020012.txt
+```
+**Output:**
+```
+designer chocolate with a clear conscience. The demographer sticks to vitamin supplements,
+all, as well as taking vitamin supplements.
+```
+The example above is used in the directory of plos on the file journal.pbio.0020012.txt. The command searches through the file and returns the lines within the file that contain the word "vitamin". 
+
+**Why Useful:**\
+This command can come in useful when you want to search for a specific theme or topic, you serach using a key word and find the lines that correlate with it. 
+
+**Source:**\
+[https://www.softwaretestinghelp.com/grep-command-in-unix/](https://www.softwaretestinghelp.com/grep-command-in-unix/)
+
+
 
 
 
