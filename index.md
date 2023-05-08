@@ -3,10 +3,11 @@
 ## Different Ways to Use `grep` Command: 
 `grep` is an important command that allows us search for text patterns within a file. It is useful for searching for specific words or letters within a givin file. The `grep` command has over 40 different options that each do differnet things here are examples of some. 
 
-**Command1: Firt Word In Line**  
-``$ grep "^(insert word of choice of here)" (insert file being searched here)``
+## Command1: Firt Word In Line 
+``$ grep "^(insert word of choice of here)" (insert file being searched here)``\
 This command returns all the lines in the given file that start with the word that was being searched for.
-**Example1:**
+
+### Example1:
 
 **Input:** 
 ``` 
@@ -20,7 +21,7 @@ The Pentagon Teleconferences. Inside the National Military Command Center, the d
 ```
 The example above is used in the directory of 911report on the file chapter-1.txt. The command searches through the file and returns all the lines within the file that start with the word "The". 
 
-**Example2:** 
+### Example2:
 
 **Input:** 
 ```
@@ -34,15 +35,16 @@ Many injured ED patients are screened with a BAC, which can help
 The example above is used in the directory of Alchol_Problems on the file Session2-PDF.txt. The command searches through the file and returns all the lines within the file that start with the word "Many".
 
 **Why Useful:**\
-This command can come in handy when you recall the first word of a specific line, but forgot where it is located, the command will call up all the lines that start with your given word and you will be able to more quickly fine the line and information you need.\
+This command can come in handy when you recall the first word of a specific line, but forgot where it is located, the command will call up all the lines that start with your given word and you will be able to more quickly fine the line and information you need.
 
 **Source:**\
 [https://www.softwaretestinghelp.com/grep-command-in-unix/](https://www.softwaretestinghelp.com/grep-command-in-unix/)
 
-**Command2: Last Word In Line**\
+## Command2: Last Word In Line
 ``$ grep "(insert word of choice here$)" (insert file of choice here)``\
-This command returns all the lines in the file that end with the given word.\
-**Example1:** 
+This command returns all the lines in the file that end with the given word.
+
+### Example1: 
 
 **Input:** 
 ```
@@ -75,9 +77,26 @@ need to be figuring out how to connect primary care and emergency
 ```
 The example above is used in the directory of Alchol_Problems on the file Session3-PDF.txt. The command searches through the file and returns all the lines within the file that end with the word "emergency". 
 
-**Example2:**
+### Example2:
 
 **Input:**
+```
+$ grep "legal$" 5_Legal_Groups.txt
+```
+**Output:**
+```
+Five independent Salt Lake organizations that provide legal
+campaign by an alliance of the non-profit providers of free legal
+```
+The example above is used in the directory of Media on the file 5_Legal_Groups.txt. The command searches through the files and returns all the lines within the file that end with the word "legal".
+
+**Why Useful:**\
+This topic can come in useful when you want to search for a specific theme or topic, you serach using a key word and find the lines that correlate with it, like how emergency was used in exaple one to bring up discussing emergencies.
+
+**Source:**\
+[https://www.softwaretestinghelp.com/grep-command-in-unix/](https://www.softwaretestinghelp.com/grep-command-in-unix/)
+
+## Command3:
 
 
 
