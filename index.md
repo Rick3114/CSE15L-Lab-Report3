@@ -1,7 +1,7 @@
 # LabReport3
 
 ## Different Ways to Use `grep` Command: 
-`grep` is an important command that allows us search for text patterns within a file. It is useful for searching for specific words or letters within a givin file. The `grep` command has over 40 different options that each do differnet things here are examples of some. 
+`grep` is an important command that allows us to search for text patterns within a file. It is useful for searching for specific words or letters within a givin file. The `grep` command has over 40 different options that each do differnet things here are examples of some. 
 
 ## Command1: Firt Word In Line 
 ``$ grep "^(insert word of choice of here)" (insert file being searched here)``\
@@ -35,7 +35,7 @@ Many injured ED patients are screened with a BAC, which can help
 The example above is used in the directory of Alchol_Problems on the file Session2-PDF.txt. The command searches through the file and returns all the lines within the file that start with the word "Many".
 
 **Why Useful:**\
-This command can come in handy when you recall the first word of a specific line, but forgot where it is located, the command will call up all the lines that start with your given word and you will be able to more quickly fine the line and information you need.
+This command can come in handy when you recall the first word of a specific line, but forgot where it is located. The command will call up all the lines that start with your given word and you will be able to find the line and information you need faster rather than personally searching each individual line.
 
 **Source:**\
 [https://www.softwaretestinghelp.com/grep-command-in-unix/](https://www.softwaretestinghelp.com/grep-command-in-unix/)
@@ -91,7 +91,7 @@ campaign by an alliance of the non-profit providers of free legal
 The example above is used in the directory of Media on the file 5_Legal_Groups.txt. The command searches through the files and returns all the lines within the file that end with the word "legal".
 
 **Why Useful:**\
-This topic can come in useful when you want to search for a specific theme or topic, you serach using a key word and find the lines that correlate with it, like how emergency was used in exaple one to bring up discussing emergencies.
+This command can come in useful when you want to see how many times you ended a sentence a certain way. Or when see how a certain sentece ends and the context that lead up to the ending of that sentence. 
 
 **Source:**\
 [https://www.softwaretestinghelp.com/grep-command-in-unix/](https://www.softwaretestinghelp.com/grep-command-in-unix/)
@@ -182,7 +182,7 @@ $ grep -c "cells" 1471-213X-1-11.txt
 The example above is used in the directory of biomed on the file 1471-213X-1-11.txt. The command searches through the file and counts the amount of times the word "cells" appears in the file and returns the total count which is 113.
 
 **Why Useful:**\
-This command could be useful when looking at data and wanting to see how much a certain variable is shown. Or when looking at a file, depending whether you use a key word to searh for a certain, it shows how much that word appears in the file giving somewhat of an idea of how influential and imporant that topic is in the file. 
+This command could be useful when looking at data and wanting to see how much a certain variable is shown. Or when looking at a file, depending whether you use a key word to searh for a certain topic, it shows how much that word appears in the file giving somewhat of an idea of how influential and imporant that topic is in the file. 
 
 **Source:**\
 [https://www.youtube.com/watch?v=EQLFr8uC44k](https://www.youtube.com/watch?v=EQLFr8uC44k)
