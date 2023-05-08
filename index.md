@@ -181,8 +181,12 @@ $ grep -c "cells" 1471-213X-1-11.txt
 ```
 The example above is used in the directory of biomed on the file 1471-213X-1-11.txt. The command searches through the file and counts the amount of times the word "cells" appears in the file and returns the total count which is 113.
 
-**Why Useful:**\ 
-This command is useful because 
+**Why Useful:**\
+This command could be useful when looking at data and wanting to see how much a certain variable is shown. Or when looking at a file, depending whether you use a key word to searh for a certain, it shows how much that word appears in the file giving somewhat of an idea of how influential and imporant that topic is in the file. 
+
+**Source:**\
+[https://www.youtube.com/watch?v=EQLFr8uC44k](https://www.youtube.com/watch?v=EQLFr8uC44k)
+
 
 
 
